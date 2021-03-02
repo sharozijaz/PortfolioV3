@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Quicksand", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  min-height: 793px;
+  background-image: url(/assets/CurveShape2.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: auto;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  font-weight: 500;
+}
+
+ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  padding: 9px;
+}
+
+#logo {
+  width: 10%;
+  height: auto;
+}
+
+.header__hero {
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "heroTxt heroImg";
+}
+
+.header__hero-text {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: heroTxt;
+  background-color: red;
+}
+
+.header__hero-img {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: heroImg;
+  position: relative;
+}
+/*# sourceMappingURL=main.css.map */
